@@ -1,0 +1,58 @@
+html {
+        background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQIPBn0dw3MncsoKdyn-6MUDfSVJbD6nTlzIHsjV61hgGTmkfw9A) repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+
+}
+#titulo,#contenido, .caja{
+  background-color: hsla(100, 90%, 70%, 0.5);
+}
+#titulo h4,p {
+  margin-top: 8%;
+}
+#titulo {
+  border-bottom-style: dashed;
+  border-bottom-color: blue;
+  border-bottom-width: thin;
+}
+.guion {
+  border-right-style: dashed;
+  border-right-color: blue;
+  border-right-width: thin;
+}
+#buscar {
+  margin-top: 25px;
+  width: 100%;
+  height: 30px;
+  background-color: hsla(100, 90%, 10%, 0.5);
+}
+#menu ul li {
+  list-style: none;
+  color: blue;
+  padding: 0.5px;
+}
+.menu {
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+}
+#menu {
+  margin-top: 15px;
+}
+#menu ul {
+  width: 90%;
+}
+.historial {
+  width: 10%;
+}
+.panelizq{
+  border-right-style: dashed;
+  border-right-color: blue;
+  border-right-width: thin;
+}
+
+.com1{
+  width: 28px;
+}

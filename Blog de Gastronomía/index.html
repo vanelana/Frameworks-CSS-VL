@@ -1,0 +1,154 @@
+
+<!doctype html>
+<html class="fondo">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Blog de Gastronomía</title>
+    <link rel="stylesheet" href="css/estilos_personalizados.css">
+    <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/app.css">
+  </head>
+
+  <body>
+    <div class="row" id="titulo">
+      <div class="medium-5 columns guion" >
+          <h4 align="right">El Buen Paladar</h4>
+          <p align="right">Fácil y delicioso</p>
+
+      </div>
+      <div class="medium-8 columns"></div>
+    </div>
+
+
+    <div class="row" id="contenido">
+      <div class="medium-5 columns panelizq show-for-medium ">
+
+          <form  action="/search" style="overflow:visible">
+            <label>
+              <input id="buscar" placeholder="Buscar...">
+            </label>
+          </form>
+
+          <div class="row" id="menu">
+          <ul style="none">
+            <li><a class="warning button expanded menu" href="#">Inicio</a></li>
+            <li><a class="secondary button expanded menu" href="#">Mi plato preferido</a></li>
+            <li><a class="alert button expanded menu" href="#">Mis recetas</a></li>
+          </ul>
+        </div>
+
+          <div class="row" id="favoritos">
+          <div class="medium-4 columns">
+            <div class=" collapse">
+              <img src="img/plato1.jpg"class="thumbnail"/>
+              <img src="img/plato2.jpg"class="thumbnail"/>
+            </div>
+          </div>
+          <div class="medium-4 columns">
+            <div class=" collapse">
+              <img src="img/plato3.jpg"class="thumbnail"/>
+              <img src="img/plato4.jpg"class="thumbnail"/>
+            </div>
+          </div>
+          <div class="medium-4 columns">
+            <div class=" collapse">
+              <img src="img/plato5.jpg"class="thumbnail"/>
+              <img src="img/plato6.jpg"class="thumbnail"/>
+            </div>
+          </div>
+        </div>
+
+
+          <div class="callout" class="historial">
+          <p >Historial</p>
+          <ul style="none">
+            <li><a href="#">lasagna</a></li>
+            <li><a href="#">empanadas de carne</a></li>
+            <li><a href="#">sopa de verduras</a></li>
+            <li><a href="#">canelones de verdura</a></li>
+            <li><a href="#">sorrentinos de ricota</a></li>
+            <li><a href="#">milanesas</a></li>
+            <li><a href="#">matambre a la pizza</a></li>
+          </ul>
+        </div>
+
+
+      </div>
+
+
+
+
+
+
+
+      <div class="medium-7 columns">
+        <div class="blog-post">
+          <h3>Pizza de Espárragos<br><small>3/7/2017</small></h3>
+          <img class="thumbnail" src="img/esparragos.jpg">
+          <p>La masa: Mezclamos la sal con la harina, y por otra parte, disolvemos la levadura en el agua templada con las dos cucharadas de aceite de oliva virgen.
+          Mezclar hasta formar una masa consistente y elástica que no se pegue.
+
+          Amasamos de nuevo la bola y la vamos extendiendo poco a poco dándole forma de disco grande, de aproximadamente un centímetro de grosor.
+
+          Extendemos una fina capa de tomate triturado sobre la masa de pizza. Ahora añadimos el queso mozzarella, los champiñones lavados y laminados, los espárragos previamente cocidos, el jamón cortado en dados y los tomatitos cortados por la mitad.
+
+          Ya sólo queda introducir la pizza en el horno precalentado a 200ºC hasta que ésta quede bien dorada. </p>
+          <div class="callout">
+            <div class="menu-simple">
+              <input id="comentario" placeholder="Comentario...." type="text">
+            </div>
+          </div>
+          <div class="callout">
+            <div class="menu-simple">
+              <img align="left" src="img/author.png" class"responsive-image com1"/>
+              <p><strong>User123: </strong> Excelente receta!<br><small>Comentario1</small></p>
+            </div>
+          </div>
+          <div class="callout">
+            <div class="menu-simple">
+              <img align="left" src="img/author.png" class"responsive-image com1"/>
+              <p><strong>User124: </strong> Queda más rica con más espárragos y hay que recordar cortarle las partes duras del tallo<br><small>Comentario2</small></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="blog-post">
+            <h3>Solomillo con ajo, panceta y ciruela<br><small>3/11/2017</small></h3>
+            <img class="thumbnail" src="img/solomillo.jpg">
+            <p>Tajear el solomillo e incrustar ajo, ciruelas y panceta fileteados. Dorar en oliva con romero y salpimentar. Sumar la cebolla picada y cuando transparenta desglasar con cerveza. Agregar la miel cuando evapora el alcohol e integrar.
+            Aparte, cubrir una basa de sartén con queso de rallar hasta que derrita, dar vuelta y dorar. Romper y utilizar como galletas.
+
+            Para el puré, hervir las batatas y pisar con la crema de leche, el licor de naranja y mezclar con almendras previamente tostadas. Salpimentar. </p>
+            <div class="callout">
+              <div class="menu-simple">
+                <input id="comentario" placeholder="Comentario...." type="text">
+              </div>
+            </div>
+            <div class="callout">
+              <div class="menu-simple">
+                <img align="left" src="img/author.png" class"responsive-image com1"/>
+                <p><strong>UserA25R: </strong> Deliciosa combinación<br><small>Comentario2</small></p>
+              </div>
+            </div>
+            <div class="callout">
+              <div class="menu-simple">
+                <img align="left" src="img/author.png" class"responsive-image com1"/>
+                <p><strong>UserZX90: </strong> No tiene desperdicio<br><small>Comentario2</small></p>
+              </div>
+            </div>
+          </div>
+      </div>
+
+      </div>
+
+
+
+
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/what-input.js"></script>
+    <script src="js/vendor/foundation.js"></script>
+    <script src="js/app.js"></script>
+
+  </body>
+</html>
